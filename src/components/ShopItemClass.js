@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import ItemModel from '../models/ItemModel';
 
 class ShopItemClass extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const { item } = this.props;
         const price = item.price.toFixed(2);
